@@ -274,8 +274,8 @@ async def account_login(bot: Client, m: Message):
 
             try:  
                 
-                cc = f'**[ 🎬 ] Lᴇᴄ ɪᴅ. » {str(count).zfill(3)}.\n\n📄 Title: {name1} {res} 🐲.mkv\n\n<pre><code>🔖 Batch Name: {b_name}</code></pre>\n\n📥 ➤𝐸𝓍𝓉𝓇𝒶𝒸𝓉𝑒𝒹 𝐵𝒴➵  {CR}**'
-                cc1 = f'**[ 📚 ] Pᴅғ ɪᴅ. » {str(count).zfill(3)}.\n\n📄 Title: {name1} 🐲.pdf \n\n<pre><code>🔖 Batch Name: {b_name}</code></pre>\n\n📥 ➤𝐸𝓍𝓉𝓇𝒶𝒸𝓉𝑒𝒹 𝐵𝒴➵  {CR}**'
+                cc = f'**[ 🎬 ] Lᴇᴄ ɪᴅ. » {str(count).zfill(3)}.\n\n📄 Title: {name1} {res} 🐲.mkv\n\n<pre><code>🔖 Batch Name: {b_name}</code></pre>\n\n📥 ➤ɆӾ₮Ɽ₳₵₮ɆĐ ฿Ɏ➵{CR}**'
+                cc1 = f'**[ 📚 ] Pᴅғ ɪᴅ. » {str(count).zfill(3)}.\n\n📄 Title: {name1} 🐲.pdf \n\n<pre><code>🔖 Batch Name: {b_name}</code></pre>\n\n📥 ➤ɆӾ₮Ɽ₳₵₮ɆĐ ฿Ɏ➵{CR}**'
                     
                 
                 if "drive" in url:
